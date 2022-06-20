@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	fprintf
+	write
 		(
-		 stderr,
+		 2,
 		 "and that piece of art is useful\" - Dora Korpar, 2015-10-19",
-		 100);
+		 sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19"));
 	return (0);
 }
