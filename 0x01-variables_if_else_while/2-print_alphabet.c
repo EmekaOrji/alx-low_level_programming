@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ * main - prints the english alphapet A - Z with putchar function
+ *
+ * Return: 0 on success
+ */
+int main()
+{
+	char c = 'a';
+	while(c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n');
+
+	return (0);
+}
