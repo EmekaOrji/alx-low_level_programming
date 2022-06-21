@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /*
- * main - check is random number 'n' is positive,
- * negative or equal to zero and outputs respective
- * message
+ * main - check is random number 'n' is positive, negative or zero
  *
- * Return: Always 0
+ * Return: 0 on succes
  */
 int main(void)
 {
@@ -26,7 +24,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is negative\n", n); 
+		printf("%d is negative\n", n);
 	}
 
 	return (0);
