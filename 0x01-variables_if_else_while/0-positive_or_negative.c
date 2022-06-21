@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - check is random number 'n' is positive, negative or zero
  *
  * Return: 0 on succes
