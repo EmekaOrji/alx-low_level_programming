@@ -10,9 +10,6 @@ int main(void)
 	int num1;
 	int num2;
 	int num3;
-	int last_num_1;
-	int last_num_2;
-	int last_num_3;
 
 	for (num1 = '0'; num1 <= '9'; num1++)
 		for (num2 = '1'; num2 <= '9'; num2++)
