@@ -7,9 +7,7 @@
  */
 int _islower(int c)
 {
-	int letter;
-
-	if (letter >= 'a' && letter <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
