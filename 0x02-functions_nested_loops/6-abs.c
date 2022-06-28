@@ -5,10 +5,8 @@
  * @params: any integer positive or negative
  * Return: The absolute value of the integer input
  */
-int _abs(int)
+int _abs(int number)
 {
-	int number;
-
 	if (number >= 0)
 	{
 		return (number);
