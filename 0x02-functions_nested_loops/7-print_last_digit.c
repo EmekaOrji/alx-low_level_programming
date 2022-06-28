@@ -20,3 +20,8 @@ int print_last_digit(int number)
 	_putchar(absoluteNumber);
 	return (absoluteNumber);
 }
+
+int _abs(int num)
+{
+	return (ab * ((num > 0) - (num < 0)));
+}
