@@ -19,6 +19,6 @@ int print_last_digit(int number)
 	else
 		absoluteNumber = lastDigit;
 
-	_putchar(absoluteNumber);
+	_putchar(absoluteNumber + '0');
 	return (absoluteNumber);
 }
