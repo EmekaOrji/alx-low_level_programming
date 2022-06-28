@@ -7,6 +7,8 @@
  * @absoluteNumber: the absolute value of the input integer
  * Return: the last digit of the integer input
  */
+int _abs(int);
+
 int print_last_digit(int number)
 {
 	int lastDigit;
