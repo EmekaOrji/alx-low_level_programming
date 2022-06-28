@@ -23,5 +23,5 @@ int print_last_digit(int number)
 
 int _abs(int num)
 {
-	return (ab * ((num > 0) - (num < 0)));
+	return (num * ((num > 0) - (num < 0)));
 }
