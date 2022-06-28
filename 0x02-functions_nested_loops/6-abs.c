@@ -3,7 +3,7 @@
 /**
  * _abs - prints the absolute value of an integer
  * @params: any integer positive or negative
- * Return: Always 0 (success)
+ * Return: The absolute value of the integer input
  */
 int _abs(int)
 {
@@ -11,12 +11,10 @@ int _abs(int)
 
 	if (number >= 0)
 	{
-		_putchar(number);
+		return (number);
 	}
 	else
 	{
-		_putchar(number * '-1');
+		return (number * -1);
 	}
-
-	return (0);
 }
