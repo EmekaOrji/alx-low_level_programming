@@ -3,21 +3,19 @@
 /**
  * print_last_digit - prints the last digit of a given integer
  * @number: any integer input
- * @ld: the last digit of the input integer
- * @abs: the absolute value of the input integer
  * Return: the absolute value of the last digit of the integer input
  */
 int print_last_digit(int number)
 {
-	int ld;
-	int abs;
+	int lastDigit;
+	int absoluteNumber;
 
-	ld = (number % 10);
-	if (ld < 0)
-		abs = ld * -1;
+	lastDigit = (number % 10);
+	if (lastDigit < 0)
+		absoluteNumber = lastDigit * -1;
 	else
-		abs = ld;
+		absoluteNumber = lastDigit;
 
-	_putchar(abs + '0');
-	return (abs);
+	_putchar(absoluteNumber + '0');
+	return (absoluteNumber);
 }
