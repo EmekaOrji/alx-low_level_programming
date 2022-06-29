@@ -8,7 +8,7 @@
 int main(void)
 {
 	unsigned long n, i, j, k;
-	
+
 	i = 0;
 	j = 1;
 	for (n = 1; n <= 50; n++)
@@ -21,6 +21,6 @@ int main(void)
 			printf(", ");
 	}
 	printf("\n");
-	
+
 	return (0);
 }
