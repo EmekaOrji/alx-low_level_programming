@@ -27,13 +27,14 @@ void print_times_table(int n)
 
 void print_non_zeros(int n, int column, int row, int digit)
 {
-	int n, column, row, digit;
-	for (row = 0; row <= n; row++)
+	row = 0;
+	column = 1;
+	while (row <= n)
 	{
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		for (column = 1; column <= n; column++)
+		while (column <= n)
 		{
 			digit = (column * row);
 			if (digit <= 99)
@@ -61,7 +62,9 @@ void print_non_zeros(int n, int column, int row, int digit)
 				_putchar(',');
 				_putchar(' ');
 			}
+			column++;
 		}
 		_putchar('\n');
+		row++;
 	}
 }
