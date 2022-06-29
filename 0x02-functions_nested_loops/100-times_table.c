@@ -5,7 +5,7 @@
  * @n: number of timetable to be printed
  * Return: void
  */
-void print_non_zeros(int, int, int, int);
+void print_non_zeros(int n, int column, int row, int digit);
 
 void print_times_table(int n)
 {
