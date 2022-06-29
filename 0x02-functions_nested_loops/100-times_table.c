@@ -27,6 +27,7 @@ void print_times_table(int n)
 
 void print_non_zeros(int n, int column, int row, int digit)
 {
+	int n, column, row, digit;
 	for (row = 0; row <= n; row++)
 	{
 		_putchar('0');
