@@ -9,7 +9,7 @@ void print_times_table(int n)
 {
 	int column, row, digit;
 
-	if ((n <= 15) || (n >= 0))
+	if ((n <= 15) && (n >= 0))
 	{
 		if (n == 0)
 		{
@@ -51,8 +51,8 @@ void print_times_table(int n)
 						_putchar(' ');
 					}
 				}
-				_putchar('\n');
 			}
+			_putchar('\n');
 		}
 	}
 }
