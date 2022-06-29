@@ -7,7 +7,7 @@
  */
 int main()
 {
- 	unsigned n, i, j, k;
+ 	unsigned long n, i, j, k;
   
 	i = 0;
 	j = 1;
@@ -16,7 +16,7 @@ int main()
     	k = i + j;
     	i = j;
     	j = k;
-    	printf("%u", k);
+    	printf("%lu", k);
     	if (n < 50)
       		printf(", ");
   	}
