@@ -19,5 +19,5 @@ int main(void)
 			num /= count;
 		}
 	}
-	printf("%lu\n", count);
+	printf("%d\n", count);
 }
