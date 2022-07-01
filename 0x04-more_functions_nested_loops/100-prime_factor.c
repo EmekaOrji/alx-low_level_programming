@@ -16,9 +16,8 @@ int main(void)
 	{
 		while (num % count == 0)
 		{
-			printf("%ld ", count);
 			num /= count;
 		}
 	}
-	printf("\n");
+	printf("%ld\n", count);
 }
