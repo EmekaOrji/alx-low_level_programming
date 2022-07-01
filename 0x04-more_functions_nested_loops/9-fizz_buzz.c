@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints all numbers from 1 to 100, replacing
+ * main - entry point
+ *
+ * Description: prints all numbers from 1 to 100, replacing
  * multiples of 3, 5 and '3 & 5' with Fizz, Buzz, and
  * 'FizzBuzz' respectively
  *
