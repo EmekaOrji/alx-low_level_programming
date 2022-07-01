@@ -5,9 +5,9 @@
  * multiples of 3, 5 and '3 & 5' with Fizz, Buzz, and
  * 'FizzBuzz' respectively
  *
- * Return: void
+ * Return: Always 0 (success)
  */
-void main()
+int main(void)
 {
 	int n;
 
@@ -22,9 +22,10 @@ void main()
 		else
 			printf("%d", n);
 
-		if (n == 100)
-			break;
-		printf(" ");
+		if (n < 100)
+			printf(" ");
 	}
 	printf("\n");
+	
+	return (0);
 }
