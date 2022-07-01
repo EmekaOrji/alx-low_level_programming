@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (success)
  */
-int main()
+void main()
 {
 	int n;
 
@@ -26,6 +26,4 @@ int main()
 			printf(" ");
 	}
 	printf("\n");
-	
-	return (0);
 }
