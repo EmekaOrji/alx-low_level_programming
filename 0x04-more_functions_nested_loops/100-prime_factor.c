@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	long int num = 612852475143;
+	unsigned long int num = 612852475143;
 	int count;
 
 	for (count = 2; num > 1; count++)
@@ -19,5 +19,5 @@ int main(void)
 			num /= count;
 		}
 	}
-	printf("%ld\n", count);
+	printf("%lu\n", count);
 }
