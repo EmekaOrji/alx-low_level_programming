@@ -24,7 +24,7 @@ void main()
 
 		if (n == 100)
 			break;
-		putchar(' ');
+		printf(' ');
 	}
-	putchar('\n');
+	printf('\n');
 }
