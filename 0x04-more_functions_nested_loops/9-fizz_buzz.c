@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (success)
  */
-void main()
+int main()
 {
 	int n;
 
@@ -22,8 +22,11 @@ void main()
 		else
 			printf("%d", n);
 
-		if (n < 100)
-			printf(" ");
+		if (n == 100)
+			break;
+		printf(" ");
 	}
 	printf("\n");
+	
+	return (0);
 }
