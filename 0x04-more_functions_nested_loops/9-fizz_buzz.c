@@ -5,9 +5,9 @@
  * multiples of 3, 5 and '3 & 5' with Fizz, Buzz, and
  * 'FizzBuzz' respectively
  *
- * Return: void
+ * Return: Always 0 (success)
  */
-void main()
+int main()
 {
 	int n;
 
@@ -27,4 +27,6 @@ void main()
 		printf(' ');
 	}
 	printf('\n');
+
+	return (0);
 }
