@@ -5,9 +5,9 @@
  * multiples of 3, 5 and '3 & 5' with Fizz, Buzz, and
  * 'FizzBuzz' respectively
  *
- * Return: Always 0 (success)
+ * Return: void
  */
-int main(void)
+void main()
 {
 	int n;
 
@@ -15,16 +15,16 @@ int main(void)
 	{
 		if ((n % 3 == 0) && (n % 5 == 0))
 			printf("FizzBuzz");
-		else if (n % 5 == 0)
-			printf("Buzz");
 		else if (n % 3 == 0)
 			printf("Fizz");
+		else if (n % 5 == 0)
+			printf("Buzz");
 		else
 			printf("%d", n);
 
-		printf(' ');
+		if (n == 100)
+			break;
+		printf(" ");
 	}
-	printf('\n');
-
-	return (0);
+	printf("\n");
 }
