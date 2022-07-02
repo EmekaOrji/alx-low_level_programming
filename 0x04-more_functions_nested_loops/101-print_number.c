@@ -7,6 +7,12 @@
  */
 void print_number(int n)
 {
+	if (n < 0)
+	{
+		n = n * -1;
+		_putchar('-');
+	}
+
 	int n0, n1, n2, n3 = n0 = n1 = n2 = n, count, digit, i;
 
 	for (count = 0; n0 != 0; count++)
