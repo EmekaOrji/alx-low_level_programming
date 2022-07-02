@@ -19,8 +19,8 @@ void print_number(int n)
 			for (i = 1; i < digit; i++)
 				n1 = n1 / 10;
 			n1 = n1 % 10;
-			putchar(n1 + '0');
+			_putchar(n1 + '0');
 		}
 
-	putchar((n2 % 10) + '0');
+	_putchar((n2 % 10) + '0');
 }
